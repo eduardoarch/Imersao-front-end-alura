@@ -247,3 +247,184 @@ https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elemen
 https://www.alura.com.br/artigos/css
 
 https://www.alura.com.br/artigos/chatgpt
+
+
+Imersão Front-End 2ª Edição
+Estilo Avançado e Posicionamento: Transformando Layouts
+
+Links importantes para você acompanhar a aula
+
+https://chat.openai.com/
+
+https://grupoalura.notion.site/imersao-front-end-2
+
+https://www.alura.com.br/artigos/css-seletores-avancados-aplicacoes-web
+
+https://www.alura.com.br/artigos/css-guia-do-flexbox
+
+https://open.spotify.com/intl-pt
+
+Desafios desta aula
+
+Deseja ir além? Experimente este desafio:
+Fazer a tag (brinque com o botão, faça o gradiente, etc).
+Acesse a resolução do desafio aqui
+
+https://www.youtube.com/watch?v=3K3uchComMo
+
+Sugira um questionário a partir da aula
+
+Claro! Aqui estão algumas perguntas de múltipla escolha para testar seu conhecimento sobre os conceitos abordados na segunda aula da Imersão Front-end:
+
+O que é o Flexbox no CSS?
+a) Uma técnica para criar animações.
+b) Uma metodologia de organização de CSS.
+c) Uma técnica para posicionar elementos de forma flexível na tela.
+d) Um tipo de framework CSS.
+
+Qual propriedade do Flexbox é usada para alinhar os itens ao longo do eixo principal?
+a) align-items
+b) justify-content
+c) flex-direction
+d) gap
+
+O que faz a propriedade justify-content: space-between?
+a) Alinha todos os itens no centro.
+b) Cria um espaço igual entre todos os itens.
+c) Coloca todos os itens no início do contêiner.
+d) Faz com que os itens se sobreponham.
+
+Qual é a função do flex-direction?
+a) Define a cor de fundo de um elemento.
+b) Controla a direção em que os itens são dispostos no contêiner flexível.
+c) Alinha os itens ao centro do contêiner.
+d) Define a largura de um elemento.
+
+O que é a metodologia BEM no CSS?
+a) Uma técnica de animação.
+b) Um padrão de nomenclatura para classes CSS que ajuda na organização do código.
+c) Um tipo de framework CSS.
+d) Um método de otimização de imagens.
+
+Espero que essas perguntas ajudem a reforçar seu aprendizado! Se precisar de mais alguma coisa, é só avisar.
+
+Luri, o código não esta funcionando como deveria. Você poderia encontrar todos os possíveis erro nele, depois listar um a um quais são esses erros?
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify Imersão</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
+</head>
+
+<body>
+<!-- <h1>Spotify</h1> -->
+<div class="sidebar">
+<nav class="sidebar_navigation">
+<div clas="logo">
+<a href="">
+<img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+</a>
+<div>
+<ul>
+<li>
+<a href="">
+<span class="fa fa-home"></span>
+<span>Início</span>
+</a>
+
+<li>
+<a href="">
+<span class="fa fa-search" </span>
+<span>Buscar</span>
+</a>
+</li>
+</ul>
+
+</div>
+</nav>
+</div>
+</body>
+
+</html>
+
+Vamos analisar o seu código HTML e identificar os possíveis erros. Aqui estão os problemas que encontrei:
+
+Erro de sintaxe na tag <div>:
+
+A classe "logo" está escrita como clas em vez de class.
+Correção: <div class="logo">
+Erro de fechamento da tag <li>:
+
+O primeiro <li> não está fechado corretamente. Ele deve ter um fechamento </li>.
+Correção: Adicionar </li> após o primeiro item da lista.
+Erro de sintaxe na tag <a>:
+
+No segundo <a>, a tag <span> não está fechada corretamente. O fechamento </span> está faltando.
+Correção: Adicionar </span> após <span class="fa fa-search">.
+Estrutura de fechamento do <nav>:
+
+O <nav> não está fechado corretamente. A tag de fechamento </nav> está faltando.
+Correção: Adicionar </nav> após o <div> que contém a lista.
+Estrutura de fechamento do <div class="sidebar">:
+
+O <div class="sidebar"> não está fechado corretamente. A tag de fechamento </div> está faltando.
+Correção: Adicionar </div> após o fechamento do <nav>.
+Aqui está o código corrigido:
+
+xml
+Copiar código
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- <h1>Spotify</h1> -->
+    <div class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>
