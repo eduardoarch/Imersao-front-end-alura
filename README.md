@@ -18,7 +18,11 @@ Este projeto é uma página web inspirada no Spotify, desenvolvida durante a Ime
 
 2. cd spotify
 
+![Captura de tela de 2025-05-12 19-07-20](https://github.com/user-attachments/assets/8618f391-7f82-40aa-93b5-d3fe607427f5)
 
-![Captura de tela de 2025-05-12 19-05-33](https://github.com/user-attachments/assets/e67740a8-6e30-436c-a528-fd58a89e6e2f)
+
+![Captura de tela de 2025-05-12 19-07-39](https://github.com/user-attachments/assets/6569f475-2ebb-4d40-952b-274d37e76111)
+
+
 
 
