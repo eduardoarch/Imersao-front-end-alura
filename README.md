@@ -16,4 +16,9 @@ Este projeto é uma página web inspirada no Spotify, desenvolvida durante a Ime
    ```bash
    git clone https://github.com/eduardoarch/spotify-imersao-alura.git
 
-cd spotify-imersao-alura
+2. cd spotify
+
+
+![Captura de tela de 2025-05-12 19-05-33](https://github.com/user-attachments/assets/e67740a8-6e30-436c-a528-fd58a89e6e2f)
+
+
